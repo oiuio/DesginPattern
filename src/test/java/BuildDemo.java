@@ -4,7 +4,7 @@ import builder.MealBuilder;
 import java.util.ArrayList;
 import java.util.List;
 
-public class BuildTest {
+public class BuildDemo {
 
 	public static void main(String[] args) {
 		MealBuilder mealBuilder = new MealBuilder();
