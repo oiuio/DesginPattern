@@ -1,6 +1,6 @@
 import factorymethod.*;
 
-public class FactoryMethodTest {
+public class FactoryMethodDemo {
 
 	public static void main(String[] args) {
 		Creator creator = new BulbCreator();
