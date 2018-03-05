@@ -1,14 +1,14 @@
 package create.singleton;
 
 /**
- * 匿名类
+ * 内部匿名类
  */
 public class Singleton4 {
 
 	private Singleton4() {
 	}
 
-	public static Singleton4 getInstace() {
+	public static Singleton4 getInstance() {
 		return InnerSingle.singleton;
 	}
 

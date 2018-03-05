@@ -14,6 +14,6 @@ public class SingletonDemo {
 
 		Singleton3 singleton3 = Singleton3.getInstance();
 
-		Singleton4 singleton4 = Singleton4.getInstace();
+		Singleton4 singleton4 = Singleton4.getInstance();
 	}
 }
