@@ -11,7 +11,7 @@ public class ProxyDemo {
 		System.out.println("\n***** Dynamic Proxy *****");
 		IUserDao target = new UserDao();
 		System.out.println(target.getClass());
-		IUserDao proxy = (IUserDao) new ProxyFactory(target).getProxyInstance();
+		IUserDao proxy = (IUserDao) new ProxyFactory().bind(target);
 		System.out.println(proxy.getClass());
 		proxy.insert();
 		//cglib proxy
